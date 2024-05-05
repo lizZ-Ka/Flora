@@ -1,0 +1,84 @@
+.HowItWorks {
+    margin-top: 50px;
+}
+
+.Title {
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #16100D;
+    margin-bottom: 10px;
+}
+
+.Under_title {
+    text-align: center;
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #16100D;
+    opacity: 50%;
+}
+
+.Info { 
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+
+.Info_block, .Info_block_active {
+    display: flex;
+    flex-direction: column;
+    width: 21%;
+    border-radius: 16px;
+    padding: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    animation: fadeOut 0.3s forwards;
+}
+
+.Info_block_active {
+    background-color: #025595;
+    animation: fadeIn 0.3s forwards;
+}
+
+.Info_block_active p {
+    color: #fff;
+    opacity: 100%;
+}
+
+@keyframes fadeIn {
+    from {background-color: #fff;}
+    to {background-color: #025595;}
+}
+
+@keyframes fadeOut {
+    from {background-color: #025595;}
+    to {background-color: #fff;}
+}
+
+.Info_img {
+    width: 40px;
+    height: 40px;
+}
+
+.Upper_txt {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #16100D;
+    margin-bottom: 5px;
+}
+
+.Lower_txt {
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #16100D;
+    opacity: 50%;
+}

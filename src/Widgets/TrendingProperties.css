@@ -1,0 +1,93 @@
+.Properties {
+    margin-top: 100px;
+}
+
+.Ap_photo {
+    width: 325px;
+    height: 295px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.Ap_info {
+    width: 360px;
+    height: 560px;
+    box-shadow: 0px 8.148148536682129px 6.518518447875977px 0px #00000002;  /* с тенями лажа какая-то хз надо посмотреть */
+    box-shadow: 0px 50px 100px 0px #0000000A;
+    border-radius: 16px;
+}
+
+.Photos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.Upper_photos, .Bottom_photos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Bottom_photos {
+    margin-top: 20px;
+}
+
+.Price {
+    font-family: 'Satoshi', sans-serif; /* чёт хз надо подключить */
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #025595;
+    margin-left: 15px;
+}
+
+.Lux {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #16100D;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.Pictures_description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 24px;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 15px;
+}
+
+.Amount {
+    margin-left: 10px;
+    margin-right: 15px;
+    font-size: 15px;
+    font-weight: 450;
+}
+
+.Location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.Loc_pic {
+    width: 24px;
+    height: 24px;
+}
+
+.Loc_info_prop {
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #16100D;
+    margin-left: 10px;
+}

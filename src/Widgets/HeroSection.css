@@ -1,0 +1,149 @@
+.HeroSection {
+    width: 100%;
+    height: auto;
+    background-color: #EFF8FF;    
+}
+
+.Title_text {
+    margin-top: 30px;       /* шрифт не сильно тот, надо посмотреть ещё */
+    font-family: "Syne", sans-serif;
+    font-weight: 550;
+    font-size: 45px;
+    line-height: 55px;
+    color: #16100D;
+}
+
+.Description {
+    margin-top: 20px;
+    font-family: "Syne", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #16100D;
+    opacity: 50%;
+}
+
+.Hero-Content {
+    z-index: 999;
+    display: block;
+    height: 100%;
+    margin-left: 10%;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.Image-Container {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    top: 50px;
+    flex-direction: row-reverse;
+    height: 717px;        /* чисто теоретически я её просто подогнала вроде все живое */
+}
+
+.Image {               
+    width: auto;
+    height: auto;
+}
+
+.Info_container {
+    margin-top: 50px;
+    width: 70%;
+    height: 100px;
+    background-color: white;
+    opacity: 95%;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+    
+
+.Info_pic {
+    width: 60px;
+    height: 60px;
+    margin-left: 3%;
+}
+
+.Block {
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Info_text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.Upper_text {
+    font-family: 'Syne', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #16100D;
+    margin: 0 ;
+}
+
+.Lower_text {
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #16100D;
+    opacity: 50%;
+    margin: 0;
+}
+
+.Search_btn {
+    width: 60px;
+    height: 60px;
+    margin-right: 2%;
+    border-radius: 10px;
+    border: none;
+    background-color: #025595;
+    cursor: pointer;
+    opacity: 100%;
+}
+
+.Search_btn img {
+    width: 24px;
+    height: 24px;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.Numbers {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    width: 25%;
+    justify-content: space-between;
+}
+
+.Column {
+    display: flex;
+    flex-direction: column;
+}
+
+.Nums {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #16100D;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.Nums_text {
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #16100D;
+}

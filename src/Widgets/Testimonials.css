@@ -1,0 +1,85 @@
+.Testimonials {
+    margin-top: 100px;
+}
+
+.Review {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.Review_content {
+    display: flex;
+    flex-direction: row;
+}
+
+.Woman {
+    width: 350px;
+    height: 350px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.Comment_txt {
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #12181D;
+    margin-left: 200px;
+    margin-right: 50px;
+}
+
+.Comment {
+    background-color: #0255950D;
+    width: 80%;
+    height: fit-content;
+    border-radius: 16px;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+
+.Stars {
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+.Name {
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-bottom: 0;
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.From {
+    margin-top: 15px;
+    margin-left: 200px;
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #12181D80;
+}
+
+.About_commentator {
+    display: flex;
+    flex-direction: column;
+}
+
+.Com_bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Circles {
+    width: 200px;
+    height: 60px;
+    margin-top: 50px;
+    margin-right: 50px;
+}

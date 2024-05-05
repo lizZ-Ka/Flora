@@ -1,0 +1,47 @@
+.Header {
+    width: 100%;
+    height: 90px;
+    background-color: #EFF8FF;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  
+  .Logo {
+    width: 80px;
+    height: 60px;
+    margin-left: 10%;
+  }
+
+  .Header_btn_container {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-around;
+  }
+  
+  .Header_btn {         
+    height: 22px;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+  }
+
+  .Header_btn:hover {
+    color: #025595;
+  }
+  
+   .Login_btn { 
+    margin-right: 10%;
+    width: 130px;        
+    height: 50px;
+    margin-top: 5px;
+    background-color: #025595;
+    border: none;
+    border-radius: 16px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+  }

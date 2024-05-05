@@ -1,0 +1,70 @@
+.Main_Footer {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    border-color: #16100D1A;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.Logo_footer {
+    width: 60px;
+    height: 50px;
+}
+
+.Logo_txt {
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #12181D80;
+    margin-top: 20px;
+}
+
+.Col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Footer_name {
+    font-family: 'Syne', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #12181D;
+    margin-bottom: 5px;
+}
+
+.Under_name {
+    font-family: 'Syne', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #12181D;
+    margin-bottom: 5px;
+}
+
+.Socials {
+    margin-top: 15px;
+}
+
+.Under_Footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+
+.Under_Footer_right {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    justify-content: space-between;
+}
